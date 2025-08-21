@@ -47,17 +47,6 @@ public class LoginTestCase  {
         } catch (Exception e) {
             System.out.println("Error in Test Case 1: " + e.getMessage());
         }
-
-        //Test Case 2:Signup a new user
-        System.out.println("\n=== Test Case 2:Login With invalid user credentials ===");
-        //try {
-        By emailCreateLocator = By.id("email_create");
-        WebElement emailCreate = wait.until(ExpectedConditions.elementToBeClickable(emailCreateLocator));
-        emailCreate.click();
-        emailCreate.sendKeys("lexid91438@amcret.com");
-        By
-
-      //  }
     }
 
 
